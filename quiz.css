@@ -32,7 +32,7 @@
     border-radius: 10px;
     background-color: white;
       /* Remove this when you have to show in your website */  
-    display: ;
+    display: none;
 }
 
 .quiz-heading{
@@ -67,7 +67,7 @@
     align-items: center;
     justify-content: center;
     /* Remove this when you have to show in your website */
-    display: ;
+    display: none;
 }
 
 .question1{
@@ -141,7 +141,7 @@
 }
 
 .quiz-scored{
-    width: 300px;
+    width: 250px;
     border-radius:10px ;
     padding: 20px;
     display: flex;
