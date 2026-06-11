@@ -68,8 +68,13 @@
     align-items: center;
     justify-content: center;
     /* Remove this when you have to show in your website */
-    display:none;
 }
+
+.remove-question{
+    display: none;
+}
+
+
 
 .question1{
     width: 400px;
@@ -86,7 +91,7 @@
 
 }
 
-.quiz-question{
+.quiz-question-show{
     font-family: 'Times New Roman', Times, serif;
     font-size: 4.3vmin;
     font-weight:900;
