@@ -32,7 +32,7 @@
     border-radius: 10px;
     background-color: white;
       /* Remove this when you have to show in your website */  
-    display: none;
+    display: ;
 }
 
 .quiz-heading{
@@ -54,6 +54,7 @@
     border: none;
     color: white;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .quiz-start-button:hover{
@@ -67,7 +68,7 @@
     align-items: center;
     justify-content: center;
     /* Remove this when you have to show in your website */
-    display: none;
+    display:none;
 }
 
 .question1{
@@ -137,7 +138,7 @@
     border-radius: 10px;
     background-color: white;
      /* Remove this when you have to show in your website */
-    display: ; 
+    display:none ; 
 }
 
 .quiz-scored{
