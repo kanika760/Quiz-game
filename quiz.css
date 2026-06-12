@@ -146,6 +146,10 @@
     display:none ; 
 }
 
+/* .add-quiz-result{
+    display: block;
+} */
+
 .quiz-scored{
     width: 250px;
     border-radius:10px ;

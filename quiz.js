@@ -54,13 +54,20 @@ const quizQuestions = [
 ];
 
 const currentQuiz = 0;
+const currentAswer =0;
 const score = 0;
 
 
 const loadquiz = () => {
     const {question,answers} = quizQuestions[currentQuiz];
-    console.log(answers);
     quizquestionshow.innerText = question;
+    quizanswer.innerHTML = answers;
+
+
+    quizQuestions.answers.forEach(answer => {
+    quizanswer.innerHTML += answer;
+});
+    
 };
 
 
@@ -74,5 +81,15 @@ quizstartbutton.addEventListener("click", () => {
   }
 });
 
-
 loadquiz();
+
+
+
+//display final score
+
+function showResults() {
+  const quizscored = document.querySelector(".quiz-scored");
+  quizContainer.innerHTML = `<h2>You scored ${score} out of ${quizQuestions.length}!</h2>`;
+}
+
+
